@@ -474,21 +474,11 @@ const Items = () => {
 					</label>
 
 					<div className="flex items-center w-full sm:w-auto">
-						<button className="flex items-center justify-center gap-2 px-6 py-4 bg-green-50 border border-green-200 rounded-lg shadow-sm hover:bg-green-100 transition-colors text-sm font-medium text-green-600">
-							<svg
-								xmlns="http://www.w3.org/2000/svg"
-								className="h-5 w-5"
-								viewBox="0 0 20 20"
-								fill="currentColor"
-							>
-								<path
-									fillRule="evenodd"
-									d="M10 3a1 1 0 011 1v5h5a1 1 0 110 2h-5v5a1 1 0 11-2 0v-5H4a1 1 0 110-2h5V4a1 1 0 011-1z"
-									clipRule="evenodd"
-								/>
-							</svg>
-							New Item
-						</button>
+						<AddItemForm
+							className="flex items-center justify-center gap-2 px-6 py-4 bg-green-50 border border-green-200 rounded-lg shadow-sm hover:bg-green-100 transition-colors text-sm font-medium text-green-600"
+							btnTitle="New Item"
+							type="add"
+						/>
 					</div>
 				</div>
 			</div>
